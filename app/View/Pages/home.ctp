@@ -29,8 +29,8 @@ endif;
 <?php endif; ?>
 <p>
 <?php
-echo WELCOME CAKE PHP NHAN SAN;
 if (version_compare(PHP_VERSION, '5.2.8', '>=')):
+	echo 'WELCOME CAKE PHP NHAN SAN';
 	echo '<span class="notice success">';
 		echo __d('cake_dev', 'Your version of PHP is 5.2.8 or higher.');
 	echo '</span>';
